@@ -1,0 +1,22 @@
+#app {
+    font-family: 'Inter', sans-serif;
+
+    > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        > * + * {
+            margin-left: 0.5rem;
+        }
+
+        > img {
+            width: 36px;
+            height: 36px;
+        }
+
+        > h1 {
+            color: hsl(219, 11%, 41%);
+        }
+    }
+}
